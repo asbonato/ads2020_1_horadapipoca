@@ -1,7 +1,7 @@
 package ex_3_1;
-//singleton lazy
+//singleton eager
 class Incremental {
-	private static Incremental inc = null;
+	private static Incremental inc =  new Incremental();;
 	private static int count = 0; 
 	private int numero;
 	
@@ -10,9 +10,6 @@ class Incremental {
 	}
 	
 	public static Incremental getInstance() {
-		if (inc == null) {
-			inc = new Incremental();
-		}
 		return inc;
 	}
 	public String toString() {
