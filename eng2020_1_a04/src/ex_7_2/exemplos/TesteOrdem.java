@@ -1,4 +1,4 @@
-package ex_7_2;
+package ex_7_2.exemplos;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

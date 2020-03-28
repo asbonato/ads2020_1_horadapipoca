@@ -1,4 +1,4 @@
-package ex_7_2;
+package ex_7_2.exemplos;
 
 public class Pilha<T> {
 	private T[] pilha;
